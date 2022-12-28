@@ -8,8 +8,8 @@ def random_array(number):
     return array
 
 n = int(input('Введите количество кустов -> '))
-if n < 0:
-    exit('Кустов не может быть отрицательное количество')
+if n < 1:
+    exit('Нет кустов - нет ягод)')
 
 array_berries = random_array(n)
 print('Список урожайности кустов:')
